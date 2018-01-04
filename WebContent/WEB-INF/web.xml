@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <servlet>
+        <servlet-name>ProductImageServlet</servlet-name>
+        <servlet-class>servlet.ProductImageServlet</servlet-class>
+    </servlet>
+  
+    <servlet-mapping>
+        <servlet-name>ProductImageServlet</servlet-name>
+        <url-pattern>/productImageServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>BaseBackServlet</servlet-name>
+        <servlet-class>servlet.BaseBackServlet</servlet-class>
+  </servlet>
+    <servlet-mapping>
+        <servlet-name>BaseBackServlet</servlet-name>
+        <url-pattern>/BaseBackServlet</url-pattern>
+    </servlet-mapping>
+    
+
+     <servlet>
+            <servlet-name>ClientServlet</servlet-name>
+        <servlet-class>servlet.ClientServlet</servlet-class>
+  </servlet>
+    <servlet-mapping>
+        <servlet-name>ClientServlet</servlet-name>
+        <url-pattern>/ClientServlet</url-pattern>
+    </servlet-mapping>
+     <servlet>
+            <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>servlet.LoginServlet</servlet-class>
+  </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+     <servlet>
+            <servlet-name>PayServlet</servlet-name>
+        <servlet-class>servlet.PayServlet</servlet-class>
+  </servlet>
+    <servlet-mapping>
+        <servlet-name>PayServlet</servlet-name>
+        <url-pattern>/PayServlet</url-pattern>
+    </servlet-mapping>
+     <servlet>
+            <servlet-name>ResponsePayServlet</servlet-name>
+        <servlet-class>servlet.ResponsePayServlet</servlet-class>
+  </servlet>
+    <servlet-mapping>
+        <servlet-name>ResponsePayServlet</servlet-name>
+        <url-pattern>/ResponsePayServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+	<servlet>
+		<servlet-name>ProductServlet</servlet-name>
+		<servlet-class>servlet.ProductServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ProductServlet</servlet-name>
+		<url-pattern>/productServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>PropertyServlet</servlet-name>
+		<servlet-class>servlet.PropertyServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>PropertyServlet</servlet-name>
+		<url-pattern>/propertyServlet</url-pattern>
+	</servlet-mapping>
+	
+    <servlet>
+        <servlet-name>CategoryServlet</servlet-name>
+        <servlet-class>servlet.CategoryServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>CategoryServlet</servlet-name>
+        <url-pattern>/categoryServlet</url-pattern>
+    </servlet-mapping>
+	
+ 
+
+    <filter>
+        <filter-name>EncodingFilter</filter-name>
+        <filter-class>filter.EncodingFilter</filter-class>
+    </filter>
+ 
+    <filter-mapping>
+        <filter-name>EncodingFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>    
+    
+    <filter>
+        <filter-name>BackServletFilter</filter-name>
+        <filter-class>filter.BackServletFilter</filter-class>
+    </filter>
+ 
+    <filter-mapping>
+        <filter-name>BackServletFilter</filter-name>
+        <url-pattern>/admin/*</url-pattern>
+    </filter-mapping>
+     <filter-mapping>
+        <filter-name>BackServletFilter</filter-name>
+        <url-pattern>/include/admin/*</url-pattern>
+    </filter-mapping>
+    <session-config> 
+         <session-timeout>30</session-timeout>
+    </session-config>
+    
+</web-app>

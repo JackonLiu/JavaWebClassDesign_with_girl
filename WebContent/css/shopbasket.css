@@ -1,0 +1,221 @@
+.s{
+	width: 100%;
+	height: 100px;
+	background-color: salmon;
+	margin-top:0px ;
+}
+.logo4{
+	padding-left: 150px;
+	padding-top: 5px;
+	float: left;
+	width: 10%;
+	margin-left: 150px;
+}
+.r1{
+	width: 60%;
+	float: right;
+	padding-right: 20px;
+	margin-right: 50px;
+}
+.l1{
+	float:left;
+	width: 250px;
+	padding-top: 10px;
+}
+.l1 li{
+	list-style: none;
+	padding: 20px;
+}
+.l1 a{
+	text-decoration: none;
+	font-family: "微软雅黑";
+	color: #000000;
+}
+.h1{
+	float: left;
+}
+.h2{
+	float: left;
+}
+.h3{
+	float: right;
+	padding-top: 40px;
+}
+.h4{
+	background-color: silver;
+	width: 50px;
+}
+.x{
+	width: 90%;
+	height:500px ;
+	margin-top: 2px;
+	background-color: wheat;
+	margin-left: 5%;
+	margin-right: 5%;
+	border-top-style: dotted;
+	color:salmon ;
+}
+.s1{
+	height: 30px;
+	padding-left: 30px;
+	border-bottom-style: double;
+	border-bottom-color: salmon;
+	color: red;
+}
+.h6{
+	height: 25px;
+	color: #000000;
+	font-size: 15px;
+	border-bottom-style: dashed;
+	border-bottom-color: lightgray;
+}
+.h6 li{
+	list-style: none;
+}
+.h6-1{
+	float: left;
+	width: 80px;
+}
+.h6-2{
+	float: right;
+	width: 80px;
+}
+.h6-3{
+	float: left;
+	width: 600px;
+}
+.h6-4{
+	float: left;
+	width: 120px;
+}
+.h6-5{
+	float: left;
+	width: 120px;
+}
+.h6-6{
+	float: left;
+	width: 120px;
+}
+.h7{
+	height: 80px;
+	color: #000000;
+	font-size: 15px;
+	border-bottom-style: dashed;
+	border-bottom-color: lightgray;
+	padding-top: 10px;
+}
+.h7 li{
+	list-style: none;
+}
+.h7-1{
+	float: left;
+	width: 50px;
+}
+.h7-3{
+	float: left;
+	width: 630px;
+}
+.h7-4{
+	float: left;
+	width: 75px;
+}
+.h7-6{
+	float: left;
+	width: 120px;
+	padding-left: 40px;
+}
+.h8-1{
+	float: left;
+	width: 80px;
+}
+.h8-2{
+	float: left;
+	
+}
+.h8-2 a{
+	text-decoration: none;
+	color: black;
+	padding-top: 20px;
+}
+.h8-3{
+	float: right;
+	color: darkgray;
+	padding-right: 50px;
+}
+.h7-5{
+	float: left;
+	width: 120px;
+}
+.h7-5 a{
+	text-decoration: none;
+	color: black;
+}
+.h9-1{
+	float: left;
+	width: 15px;
+}
+.h9-2{
+	float: left;
+}
+.h9-3{
+	float: left;
+	width: 15px;
+	padding-left: 5px;
+}
+.h7-6 a{
+	text-decoration: none;
+	color: black;
+}
+.a3{
+	height: 20px;
+}
+.a3-1{
+	border: 1px solid #e7ecf0;
+    margin: 0 2px;
+    padding: 0 5px;
+}
+.x3{
+	margin-top:0px;
+	height: 80px;
+	overflow: hidden;
+	background-color: white;
+	position: fixed;
+	width: 89%;
+}
+.x3 li{
+	list-style: none;
+}
+.h9-4{
+	float: left;
+	width: 40px;
+}
+.h9-4 a{
+	text-decoration: none;
+
+}
+.l4{
+	width: 30%;
+	float: left;
+}
+.r4{
+	float: right;
+	width: 60%;
+	background-color: gray;
+	height: 60px;
+	
+}
+.r4 a{
+	text-decoration: none;
+	
+}
+.h9-5{
+	float: left;
+	padding-right: 60px;
+}
+.h9-6{
+	float: left;
+	width: 300px;
+}
+.h9-7{
+	float: right;
+}
